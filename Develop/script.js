@@ -135,7 +135,7 @@ function getCriteria() {
         }
         else if (numeric == 'n' || numeric == 'N' ){
           console.log(numeric);
-          numeric = false;
+          numericStatus = false;
           accepted = true;
         }
         else {
